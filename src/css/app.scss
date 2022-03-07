@@ -1,0 +1,32 @@
+// app global css in SCSS form
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Redressed&display=swap');
+* {
+  box-sizing: border-box;
+}
+html{
+  height: 100%;
+}
+body {
+  font-family: 'Merriweather', sans-serif;
+  margin: 0;
+  height: 100%;
+}
+.title-text{
+  font-family: 'Redressed', cursive;
+  font-size: 2rem;
+  color: $primary;
+}
+.main-page{
+  padding: 1rem 4rem;
+}
+.page-title{
+  margin: 1.5rem 0;
+  display: inline-block;
+}
+.auth-tab{
+  width: 68vh;
+}
+.menu-page{
+  height: 100%;
+}
